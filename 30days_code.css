@@ -1,0 +1,22 @@
+.body{
+    padding: 100px;   
+    background-color: rgb(21, 46, 61);
+}
+.navbar{
+    min-height: 50px; 
+    background-color: lightslategray;  
+}
+.myImage{
+    border-radius: 170px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Chinua_Achebe%2C_2008_%28cropped%29.jpg/220px-Chinua_Achebe%2C_2008_%28cropped%29.jpg');
+    background-size: cover;
+}
+.container{
+    align-items: center;
+    padding: 100px;
+    padding-top: 50px;
+    background-color: rgb(158, 184, 206);
+    border-radius: 50px;
+}
