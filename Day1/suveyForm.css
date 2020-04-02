@@ -1,0 +1,24 @@
+.body{
+    background-color:  rgb(188, 241, 224);
+    color: green;
+
+}
+.container{
+    background-color: rgb(237, 250, 246);
+    padding: 50px;
+        /* padding: 20px; */
+}
+.navbar{
+    height: 20px; 
+    
+}
+div p{
+    font-size: 25px;
+    background-color: rgb(217, 238, 227);
+    padding: 10px;
+}
+p.footnote{
+    color: black;
+    font-size: 15px;
+}
+

@@ -1,3 +1,500 @@
 <!-- DAY 1: Survey Form  
 Description \
 A survey form is built to collect feedback from the public​.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>30-days-code(Frontend_task1)</title>
+    <link rel="stylesheet" href="./suveyForm.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+</head>
+<body class="body">
+
+        <nav class="navbar navbar-expand-lg  white fixed-top" ></nav> 
+  <div class="container-fliud p-5">
+        <div class="container ">      
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        
+                        <form action="" method="post" >
+        
+                                    <h2>SURVEY FORM </h2>
+                                    
+                                 <div><p>Name </p></div>         
+                                     <div class="md-form form-lg">
+                                             <input type="text" id="name" class="form-control form-control-lg ">
+                                     </div>
+                                     
+                              <div><p>Company</p></div>
+                                     <div class="md-form form-lg">
+                                             <input type="text" id="Company" class="form-control form-control-lg">
+                                     </div>
+        
+                             
+                             <div><p>What is your position in the company?</p></div>
+                                     <div class="md-form form-lg">
+                                             <input type="text" id="position" class="form-control form-control-lg">
+                                     </div>
+                                     
+                            <div> <p>What is the nature of your company?</p></div>
+                                     <div class="md-form form-lg">
+                                         <div class="form-check form-control-lg">
+                                                 <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                                 Contractual
+                                        </div>
+                                        
+            
+                                        <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature2" name="companyNature" checked>
+                                            >Comsultancy
+                                        </div>
+                                        
+            
+                                        <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature3" name="companyNature">
+                                            >Others (specify)
+                                                <input type="text" id="" class=" form-control-lg">
+                                        </div>                       
+                                    </div>
+                                    <br>
+                             <div><p>What professional field do you belong to?</p></div>
+                                 <div class="md-form form-lg">
+                                     <div class="form-check form-control-lg">
+                                             <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                         Architecture
+                                     </div>
+                 
+                                     <div class="form-check form-control-lg">
+                                         <input type="radio" class="form-check-input" id="nature2" name="companyNature" checked>
+                                         Civil Engineering
+                                     </div>
+                 
+                                     <div class="form-check form-control-lg">
+                                             <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                             Building
+                                     </div>
+                                         
+                 
+                                     <div class="form-check form-control-lg">
+                                         <input type="radio" class="form-check-input" id="nature2" name="companyNature" checked>
+                                         Quantity Surveying
+                                     </div>
+                 
+                                     <div class="form-check form-control-lg">
+                                             <input type="radio" class="form-check-input" id="nature3" name="companyNature">
+                                             Others (specify)<input type="text" id="natureOthers" class=" form-control-lg">                            
+                                     </div>
+                                     <br>
+                                 </div>
+                 
+                            <div><p>Your years of experience in the industry</p></div>
+                                 
+                                 <div class="form-control-lg form-lg">
+                                     <select class="experience md-form colorful-select dropdown-green">
+                                            <option value="" >-select-</option> 
+                                            <option value="1">1-5years</option>
+                                             <option value="2">6-10years</option>
+                                             <option value="3">11-15years</option>
+                                             <option value="4">16-20years</option>
+                                             <option value="5">20years and above</option>
+                                     </select>
+                                     <label class="experience-label">Select</label>  
+                                </div>
+        
+                            <br><br>
+        
+                            <div><p>What type of construction work are you involved in?</p></div>
+                                <div class="md-form form-lg">
+                                    <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                        Building
+                                    </div>
+                
+                                    <div class="form-check form-control-lg">
+                                        <input type="radio" class="form-check-input" id="nature2" name="companyNature" checked>
+                                        Civil Engineering
+                                    </div>
+                
+                                    <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                            Heavy Engineering
+                                    </div>
+                                        
+                                    <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature3" name="companyNature">
+                                            Others (specify)<input type="text" id="natureOthers" class=" form-control-lg">                            
+                                    </div>
+                                    <br>
+                                </div>
+        
+                            <div><p>At what stage do dispute most likely occur in construction works?</p></div>
+                                <div class="md-form form-lg">
+                                    <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                        Inception
+                                    </div>
+                
+                                    <div class="form-check form-control-lg">
+                                        <input type="radio" class="form-check-input" id="nature2" name="companyNature" checked>
+                                        Execution
+                                    </div>
+                
+                                    <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature1" name="companyNature">
+                                        Completion
+                                    </div>
+                                        
+                                    <div class="form-check form-control-lg">
+                                            <input type="radio" class="form-check-input" id="nature3" name="companyNature">
+                                            Others (specify)<input type="text" id="natureOthers" class=" form-control-lg">                            
+                                    </div>
+                                    <br>
+                                </div>
+        
+                            <div><p>In your opinion identify the root causes of dispute in the construction industry</p></div>
+                            <div class="md-form form-lg"> 
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                          <div class="form-check-inline form-control-lg">
+                                               <u>Root Causes of Dispute</u>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                Strongly Agree
+                                               
+                                        </div>
+                                        <div class="col-md-1">
+                                                Agree
+                                                
+                                        </div>
+                                        <div class="col-md-1">
+                                                Indecisive
+                                                
+                                        </div>
+                                        <div class="col-md-1">
+                                                Disargree
+                                                
+                                        </div>
+                                        <div class="col-md-2">
+                                                Strongly Disargree
+                                                
+                                        </div>
+                                    </div>
+                                    <br>
+        
+                                    <div class="row">
+                                            <div class="col-md-5">
+                                               <div class="form-check-inline form-control-lg">
+                                                
+                                                Lack of proper planning
+                                                   
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                    <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="p1" name="planning" checked>                     
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-1">
+                                                    <div class="form-check-inline form-control-lg">
+                                                            <input type="radio" class="form-check-input" id="p2" name="planning">
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-1">
+                                                    <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="p3" name="planning" checked>
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-1">
+                                                    <div class="form-check-inline form-control-lg">
+                                                            <input type="radio" class="form-check-input" id="p4" name="planning">
+                                                    </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                    <div class="form-check-inline form-control-lg">
+                                                            <input type="radio" class="form-check-input" id="p5" name="planning">
+                                                    </div>
+                                            </div>
+                                    </div>
+        
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                            Poor relationship between stakeholders
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="r1" name="relationship" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="r2" name="relationship">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="r3" name="relationship" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="r4" name="relationship">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="r5" name="relationship">
+                                                </div>
+                                        </div>
+                                   </div>
+        
+                                   <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                            Corruptiom
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="c1" name="corruption" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="c2" name="corruption">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="c3" name="corruption" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="c4" name="corruption">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="c5" name="corruption">
+                                                </div>
+                                        </div>
+                                   </div>
+        
+                                   <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                            Delay in progress and completion of work
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="d1" name="delay" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="d2" name="delay">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="d3" name="delay" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="d4" name="delay">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="d5" name="delay">
+                                                </div>
+                                        </div>
+                                   </div>
+        
+                                   <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                         Change in scope and plan of work
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w1" name="work" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w2" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w3" name="work" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w4" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w5" name="work">
+                                                </div>
+                                        </div>
+                                   </div>
+        
+                                   <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                         Incompetency of professionals
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w1" name="work" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w2" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w3" name="work" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w4" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w5" name="work">
+                                                </div>
+                                        </div>
+                                   </div>
+        
+                                   <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                        Poor management
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w1" name="work" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w2" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w3" name="work" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w4" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w5" name="work">
+                                                </div>
+                                        </div>
+                                   </div>
+        
+                                   <div class="row">
+                                        <div class="col-md-5">
+                                           <div class="form-check-inline form-control-lg">
+                                            
+                                         Low level of committment of professionals
+                                               
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2" >
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w1" name="work" checked>                     
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w2" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                    <input type="radio" class="form-check-input" id="w3" name="work" checked>
+                                                </div>
+                                        </div>
+                                        <div class="col-md-1">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w4" name="work">
+                                                </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <div class="form-check-inline form-control-lg">
+                                                        <input type="radio" class="form-check-input" id="w5" name="work">
+                                                </div>
+                                        </div>
+                                   </div>
+                            </div>
+        
+        
+                       </form>
+                   </div>
+                </div>
+                <div >
+                        <button type="button" class="btn btn-outline-success btn-rounded waves-effec7">Previous</button>
+                        <button type="button" class="btn btn-outline-success btn-rounded waves-effect">Next</button>
+                </div>
+            </div>
+            
+  </div>
+    
+  <p class="footnote">*This survey form is an extract from the questionaire issued to construction professional 
+        as part of a project submmited to the Department of Quanity Surveying, Federal Polytechnic Ilaro, Ogun State, 
+        Nigeria in partial fulfilment for the award of Higher National Diploma in Quantity Surveying.
+</p>
+    <footer class="page-footer font-small black darken-1">
+        <div class="copyright text-center py-2">© 2020 Copyright: ValMarie for 
+                <a href="https://30daysofcode.xyz/login.php">30days Code.</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
