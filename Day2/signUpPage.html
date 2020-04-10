@@ -1,0 +1,118 @@
+<!-- DAY 2: Sign Up  Page 
+ 
+Description 
+A basic signup page  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RivaBANK</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./signUpPage.css">
+</head>
+<body class="body">
+    <div class="container-fluid">
+        <h5 class="text text-right">Aleready a member?
+            <a href="./signIn.html">Sign In</a>
+        </h5>
+        </div class="row">        
+            <div id="trade_name" style="text-align:center;">
+                    RivaBANK
+           </div>        
+        </div>          
+           <div class="col-md-4 card myCard mx-auto my-3">      
+      
+          <!-- Card -->
+          <div class="card-casade">
+      
+              <!-- Headword -->
+              <div class="view view-cascade">
+                <h2 class="card-header-title mb-2">Sign Up to RivaBANK</h2>
+                <p class="card-header-subtitle mb-0">Stay connected financially without drain</p>      
+              </div>
+            
+              <!-- Error display -->
+              <div class="card-body card-body-cascade text-center">
+                  <div id="error"><p class="text" id="display"></p></div>
+              </div>
+              <!-- Error display -->
+            
+            </div>
+            <!-- Card -->
+      
+            <!-- Inputs -->
+              <div>
+                  <i class="fas fa-user prefix"></i>
+                  <input type="text" id= 'username' placeholder="Username"class="form validate"
+                              required><br><br>
+              </div>
+
+              <div>
+                 <i class="fas fa-phone prefix"></i>
+                  <input type="tel" id= 'phone' placeholder="Mobile"class="form validate"
+                              required><br><br>
+              </div>
+      
+              <div>
+                  <i class="fas fa-envelope prefix"></i>
+                  <input type="text" id= 'email' placeholder="Email"class="form validate"
+                              required><br><br>
+              </div>
+      
+              <div> 
+                      <i class="fas fa-lock prefix"></i>
+                      <input type="password" id="passcode"placeholder=" Password"class=" form validate"
+                                  required><br>
+              </div>
+              
+                      <br>
+              <!--SignUp button -->
+              <div>
+                  <button class="btn btn-rounded blue-gradient text-white" onclick="sub_button()" >
+                      Sign Up
+                  </button>               
+              </div>
+              <!--SignUp button -->
+      
+          <!-- Inputs -->
+                          <br>
+          <!-- Social handles -->
+                  <div>
+                    <h6>OR <br>--Sign Up with--</h6>
+                      <!-- Twitter -->
+                      <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"> </i></a>
+                      <!-- Linkedin -->
+                      <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"> </i></a>
+                      <!-- Facebook -->
+                      <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"> </i></a>
+                      <!-- Email -->
+                      <a class="px-2 fa-lg email-ic"><i class="fas fa-envelope"> </i></a>
+                  </div>
+          <!-- Social handles -->
+      
+           </div>
+    </div>
+        
+
+
+    <!-- <script src="./signUpPage.js"></script> -->
+            <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+</body>
+</html>
