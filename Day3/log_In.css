@@ -1,0 +1,44 @@
+body{
+    background-attachment: fixed;
+    background: url(https://cdn.dribbble.com/users/788099/screenshots/4135014/programming_kit8-net.png);
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+    alpha
+.container-fluid {
+    background-color:rgba(31, 39, 43, 0.5) ;
+}
+
+._name {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 800;
+    color: rgb(230, 13, 13);
+    text-shadow: 1px 1px 1px white,
+                
+}
+
+#error {
+    background-color: rgb(226, 126, 141);
+    color: rgb(195, 10, 10);
+    border: 0px;
+    text-align: center;
+}
+
+.myCard {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:rgba(230, 13, 13, 0.342) ;
+    padding: 50px ;
+    text-align: center;
+}
+
+button { 
+    background-color: rgb(230, 13, 13) important;
+    color: seashell;
+   width: 100 
+}
